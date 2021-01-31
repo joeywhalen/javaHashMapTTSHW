@@ -21,9 +21,13 @@ public class Main {
 		Autos.put("Kona EV", "Hyundai");
 		Autos.put("Ioniq EV", "Hyundai");
 
+		Scanner userInput = new Scanner(System.in);
+		System.out.println("What model are you looking for today?");// Finding out what auto the customer seeks
+		String autoSeek = userInput.nextLine();
 		
-		
-		System.out.println(Autos);
+		//if Autos.containsKey("Bolt") {
+		//System.out.printf(Autos);
+		//}
 	}
 
 }
