@@ -25,9 +25,15 @@ public class Main {
 		System.out.println("What model are you looking for today?");// Finding out what auto the customer seeks
 		String autoSeek = userInput.nextLine();
 		
-		//if Autos.containsKey("Bolt") {
-		//System.out.printf(Autos);
-		//}
+		if(Autos.containsKey(autoSeek)) {// determine if we have the auto the user seeks
+			System.out.printf("Yes, we have the %s.  Our %s section is over here.\n", autoSeek, Autos.get(autoSeek));
+		}	else {
+			System.out.printf("I'm sorry, but we don't carry the %s.\n", autoSeek);
+		
+			userInput.close();
+			System.exit(0);
+		}
+		
 	}
 
 }
