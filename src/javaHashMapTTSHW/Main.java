@@ -13,8 +13,15 @@ public class Main {
 		Autos.put("Y", "Tesla");
 		Autos.put("S", "Tesla");
 		Autos.put("X", "Tesla");
-		Autos.put("Cybertruck", "Tesla");
-		Autos.put("Semi", "Tesla");
+		Autos.put("e-tron", "Audi");
+		Autos.put("I-Pace", "Jaguar");
+		Autos.put("Leaf", "Nissan");
+		Autos.put("Niro EV", "Kia");
+		Autos.put("Bolt", "Chevrolet");
+		Autos.put("Kona EV", "Hyundai");
+		Autos.put("Ioniq EV", "Hyundai");
+
+		
 		
 		System.out.println(Autos);
 	}
